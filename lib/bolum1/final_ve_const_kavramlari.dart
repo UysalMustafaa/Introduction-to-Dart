@@ -1,6 +1,6 @@
 main(List<String> args) {
   
-    final String sehirAdi = "Akhisar";
+    final String sehirAdi = "İzmir";
 
     const PI = 3.14;
     print(sehirAdi);
