@@ -8,7 +8,6 @@ main(List<String> args) {
   
     String isim = "Mustafa";
     String soyisim = "Uysal";
-    String kurs = "Flutter";
 
     print("interpolation : $isim $soyisim");
     print("Karakter Uzunlugu  ${isim.length}");
