@@ -31,4 +31,7 @@ main(List<String> args) {
 
      bool yaslimi = false;
      print(yaslimi);
+
+     int boying = 150;
+     print(boying);
 }
