@@ -1,6 +1,5 @@
 main(List<String> args) {
 
-  int sayi = 5;
   Ogrenci mustafa = Ogrenci();
   var mehmet = Ogrenci();
 
