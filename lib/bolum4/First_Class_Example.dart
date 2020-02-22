@@ -21,17 +21,7 @@ class Ogrenci {
   String adi;
   bool erkekMi;
 
-  void dersCalis() {
-
-  }
-
-  void uyu() {
-
-
-  }
-
   void bilgileriYazdir() {
     print("Öğrenci Numarası : ${this.ogrNo} Adi : ${this.adi} ErkekMi : ${this.erkekMi}");
   }
-
 }
