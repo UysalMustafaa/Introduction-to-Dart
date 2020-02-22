@@ -1,3 +1,17 @@
+/*
+
+* Extends Deyimi : Bir sınıfa ait özelliklere başka bir sınava miras almak için kullanılır.
+* Her alt sınıf doğrudan bir tane süper sınıfa sahip olabilir.
+* Her alt sınıf süper sınıfın özelliklerini taşır.
+* Süper sınıftan alınan bazı özellikler değiştirilebilir. Aynen kullanılmak zorunda değildir.
+* Kalıtımın basamakları çok uzun olmamalıdır. Bu kötü tasarıma neden olur.
+*
+* Kalıtımın Faydaları :
+* Daha önceden yazılmış kod parçacıkları tekrar tekrar yazılmadan başka sınıflarda kullanılabilir.
+* İf, else, switch gibi kontrol ifadelerinin olduğu sınıflar kötü tasarım örnekleridir. Bunun yerine kalıtım tercih edilmelidir.
+
+*/
+
 main(List<String> args) {
 
   var kopek1 = Kopek();
