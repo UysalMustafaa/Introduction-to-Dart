@@ -42,7 +42,6 @@ bu özellik polimorfizm 'dir -ki bu özelliğin temelinde kalıtım (inheritance
 
 main(List<String> args) {
   
-  Er mustafa = new Er();
   Er cem = new Er();
 
   Asker asker = Asker();
