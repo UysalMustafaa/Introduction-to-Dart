@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum1/hello_world.dart",
+            "program": "lib/bolum7/List_Generate_And_Map.dart",
             "request": "launch",
             "type": "dart"
         }
