@@ -3,7 +3,41 @@ import 'dart:math';
 
 void main() {
 
-  zincirlenmisFuture();
+  print("Hesaplama başlıyor...");
+  futureOlustur();
+  print("Hesaplama bitti...");
+  
+  //errorVeWhenCompleted();
+
+  //zincirlenmisFuture();
+
+}
+
+void futureOlustur() {
+  new Future(() {
+    var sum = 0;
+    for (var i = 0; i < 50000000; i++) {
+      sum += i;
+    }
+    return sum;
+  }).then(print);
+}
+
+void errorVeWhenCompleted() {
+  var random = new Random();
+  var future = Future.delayed(new Duration(seconds: 3), () {
+    if (random.nextBool()) {
+      return 100;
+    } else {
+      throw 'HATA ALINDI!';
+    }
+  }).timeout(new Duration(seconds: 20));
+  
+  var future2 = future.then(print);
+  var future3 = future2.catchError(print);
+  var future4 = future3.whenComplete(() {
+    print('İşlem hatayla veya başarıyla tamamlandı');
+  });
 
 }
 
