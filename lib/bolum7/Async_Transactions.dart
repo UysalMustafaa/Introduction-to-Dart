@@ -29,7 +29,7 @@ void errorVeWhenCompleted() {
     if (random.nextBool()) {
       return 100;
     } else {
-      throw '';
+      throw 'HATA ALINDI!';
     }
   }).timeout(new Duration(seconds: 20));
   
