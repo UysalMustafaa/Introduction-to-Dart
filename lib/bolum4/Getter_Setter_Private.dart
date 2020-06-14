@@ -36,7 +36,7 @@ String get ogrenciNoOku {
 String get ogrenciNoOku => "Öğrenci Numarası : $_ogrNo";
 
 
-void () {
+void bilgileriYazdir() {
     print("Öğrenci Numarası : ${this._ogrNo} Adi : ${this.adi} ErkekMi : ${this.erkekMi}");
   }
 
