@@ -31,7 +31,7 @@ Future <String> dosyaIndir() {
     return "Indirilen dosya içeriği";
   });
   print("Dosya Indirme işlemi bitti...");
-  return ;
+  return sonuc;
   
 
 }
