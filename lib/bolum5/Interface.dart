@@ -64,7 +64,7 @@ class SesSistemi implements Kumanda {
   }
 
   @override
-  void sesKapat() {
+  void () {
     print("Televizyon sınıfı ses azalt methodu");
   }
 }
