@@ -22,7 +22,7 @@ main(List<String> args) {
   print(f4(7));
 }
 
-// Normal bir fonksiyon
+// Normal fonksiyon
 void sayilariTopla(int a, int b) {
   int toplam = a + b;
   print(toplam);
