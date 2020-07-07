@@ -79,7 +79,7 @@ class Er extends Asker {
 
 class YuzBasi extends Asker {
   @override
-  void selamVer() {
+  void () {
     print("Yüzbaşı selam verdi!");
   }
 } 
