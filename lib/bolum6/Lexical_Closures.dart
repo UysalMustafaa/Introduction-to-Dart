@@ -23,7 +23,7 @@ main(List<String> args) {
     return soyle;
   };
 
-  var fonksiyonuAl = ();
+  var fonksiyonuAl = konus();
 
   fonksiyonuAl();
 }
