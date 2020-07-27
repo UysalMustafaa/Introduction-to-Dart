@@ -18,8 +18,8 @@ main(List<String> args) {
     print("Aklımdan tuttuğum birinci sayı : " + sayi1.toString() + " " + "Ikinci sayi : " + sayi2.toString());
     print("Aklımdan tuttuğum sayı $sayi1 ikinci sayi $sayi2");
 
-    double en = 10;
-    double boy = 12;
+    double en = ;
+    double boy = ;
     print("Diktörgenin en\'i $en Diktörgenin boy\'u $boy Alanı ${en*boy}");
 
 }
