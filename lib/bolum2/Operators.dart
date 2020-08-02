@@ -13,8 +13,8 @@ main(List<String> args) {
 
 //ATAMA VE KARSILASTIRMA
 
-double sayi3 = 10;
-sayi3 = sayi3 + 10;
+double sayi3 = 5;
+sayi3 = sayi3 + 5;
 print(sayi3);
 
 sayi3 += 5; // sayi3 = sayi3 + 5
