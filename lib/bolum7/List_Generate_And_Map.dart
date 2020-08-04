@@ -29,7 +29,7 @@ class Ogrenci {
   String ad;
   int no;
 
-  Ogrenci(this.ad, this.no);
+  (this.ad, this.no);
   @override
   String toString() {
     
