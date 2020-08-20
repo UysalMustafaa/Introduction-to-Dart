@@ -9,9 +9,9 @@
 main(List<String> args) {
 
   Map<String, int> sehirTelKodlari = {
-    "" : 0213,
-    "" : 4520,
-    "" : 3795,
+    "Akhisar" : 0213,
+    "Manisa" : 4520,
+    "İzmir" : 3795,
   };
 
   print("Ankaranın alan kodu ${sehirTelKodlari["Akhisar"]}");
