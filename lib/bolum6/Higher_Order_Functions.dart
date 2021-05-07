@@ -1,8 +1,3 @@
-/*
-* Higher Order Functions : Bir fonksiyonu parametre olarak alan veya geriye fonksiyon döndüren fonksiyonlardır.
-* İkisi de aynı anda yapılabilir.
-*/
-
 main(List<String> args) {
   Function sayilariTopla = (s1 , s2) => print(s1 + s2);
   birMethod("Mustafa", sayilariTopla);
