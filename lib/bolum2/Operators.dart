@@ -3,7 +3,7 @@ main(List<String> args) {
   double sayi1 = 9;
   double sayi2 = 6;
 
-//ARİTMETİK OPERATORLER
+
 
   print("$sayi1 + $sayi2 Toplamı ${sayi1 + sayi2}");
   print("$sayi1 - $sayi2 Farkı ${sayi1 - sayi2}");
@@ -11,7 +11,7 @@ main(List<String> args) {
   print("$sayi1 / $sayi2 Bölümü ${sayi1 / sayi2}");
   print("$sayi1 % $sayi2 Mod ${sayi1 % sayi2}");
 
-//ATAMA VE KARSILASTIRMA
+
 
 double sayi3 = 5;
 sayi3 = sayi3 + 5;
@@ -43,9 +43,6 @@ else {
   print("İsim İle soyisim aynı değere sahip");
 }
 
-//Mantıksal Operatörler
-//Java ve Kotlin bilen ==> Hem javayı hem kotlini bilecek, herhangi biri bilinmiyorsa şart sağlanmaz.
-//Java veya Kotlin bilen ==> Bu dillerden sadece birini veya her ikisini bilmesi gerekiyor.
 
 
 bool kosul1 = false;
