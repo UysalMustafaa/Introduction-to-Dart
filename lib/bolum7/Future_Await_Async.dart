@@ -1,4 +1,3 @@
-//import 'dart:io';
 import 'dart:async';
 
 void main(List<String> args) {
@@ -10,11 +9,6 @@ void main(List<String> args) {
 }
 
 dosyaIceriginiGoster() {
-/*
-  print("Dosya içeriği gösterilecek...");
-  String dosyaIcerigi = await dosyaIndir();
-  print("DOSYA ICERİGİ : $dosyaIcerigi");
-*/
 
   print("Dosya içeriği gösterilecek...");
   Future <String> dosyaIcerigi = dosyaIndir();
@@ -25,7 +19,6 @@ dosyaIceriginiGoster() {
 Future <String> dosyaIndir() {
 
   print("Dosya Indirme işlemi başladı...");
-  //sleep(Duration(seconds: 15));
 
   Future <String> sonuc = Future.delayed(Duration(seconds: 10), () {
     return "Indirilen dosya içeriği";
