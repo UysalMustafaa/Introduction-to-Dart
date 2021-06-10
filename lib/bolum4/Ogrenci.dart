@@ -1,6 +1,6 @@
 class Ogrenci {
 
-  int _ogrNo; //Instance ve Field variable.
+  int _ogrNo;
   String adi;
   bool erkekMi;
 
@@ -15,12 +15,6 @@ void set ogrenciNoAta(int no) {
     this._ogrNo = no;
   }
 }
-
-/*
-String get ogrenciNoOku {
-  return "Öğrenci Numarası: $ogrNo";
-}
-*/
 
 String get ogrenciNoOku => "Öğrenci Numarası : $_ogrNo";
 
